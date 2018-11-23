@@ -10,7 +10,6 @@
 <body>
 <form id="sql_form" name="sql_form" action="./" method="post">
     &nbsp;&nbsp;&nbsp;&nbsp;环境：<select id="db_type">
-        <{html_options values=$arr_type selected=$arr_type_selected output=$arr_type}>
     </select>
     &nbsp;&nbsp;&nbsp;&nbsp;库：<select id="db_name" name="db_name">
     </select> {{ $mysqlDsn }}&nbsp;&nbsp;&nbsp;&nbsp;版本: {{ $mysqlVersion }}&nbsp;<br>
